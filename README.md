@@ -74,3 +74,10 @@ http://localhost:8080/api/3
 2019-03-11 00:42:32 - Writing ["Hi! three!"]
 2019-03-11 00:42:32 - Completed 200 OK
 ```
+
+# At A Glance
+관련 어노테이션의 설정값 usage에 들어갈 값 가령 free, pay등은 enum에 정의해서 사용할 수 있겠다.    
+
+Around처리한 만큼 실행 전 후에 대한 구분을 하기 위해서는 실제 APIUsageAOP클래스에서 try~catch~finally를 통해서 joincut을 정할 수 있다.
+
+좀 더 구체적으로 Around, Before, After외의 다양한 방식을 적용할 수 있겠지만 심플하게 Around로  처리하는 것을 선호한다. 
