@@ -26,6 +26,8 @@ public class APIUsageAOP {
 	/**
 	 * 
 	 * advice는 4가지를 한번에 제공하는 around로 처리한다.
+	 * pointcut설정은 다음과 같이 해당 annotation으로 설정하고 해당 어노테이션 객체를 파라미터로 사용하기 위해 around에 
+	 * 다음과 같은 형식으로 설정한다.
 	 * <pre>
 	 * 시나리오는 이렇다.
 	 * 
