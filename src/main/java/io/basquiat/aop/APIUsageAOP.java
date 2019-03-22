@@ -25,7 +25,7 @@ public class APIUsageAOP {
 
 	/**
 	 * 
-	 * pointcut은 around로 처리한다.
+	 * advice는 4가지를 한번에  around로 처리한다.
 	 * <pre>
 	 * 시나리오는 이렇다.
 	 * 
